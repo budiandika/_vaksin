@@ -24,4 +24,3 @@
 <link href="{{asset('assets/css/dark-sidebar.css')}}" rel="stylesheet" type="text/css"  id="app-stylesheet" />
 <link href="{{asset('assets/css/dark-theme.css')}}" rel="stylesheet" type="text/css"  id="app-stylesheet" />
 @yield('styles')
-        @yield('styles')
