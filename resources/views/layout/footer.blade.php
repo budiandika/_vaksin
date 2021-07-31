@@ -26,4 +26,3 @@ new PerfectScrollbar('.dashboard-social-list');
 new PerfectScrollbar('.dashboard-top-countries');
 </script>
 @yield('scripts')
-@yield('scripts')
