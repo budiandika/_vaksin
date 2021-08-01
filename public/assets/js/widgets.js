@@ -469,7 +469,7 @@ $(function () {
 			width: 3,
 			curve: 'smooth'
 		},
-		colors: ["#673ab7"],
+		colors: ["#f02769"],
 		xaxis: {
 			categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
 		},
@@ -478,5 +478,43 @@ $(function () {
 		}
 	};
 	var chart = new ApexCharts(document.querySelector("#chart9"), options);
+	chart.render();
+	// chart 10
+	var options = {
+		series: [25, 65, 10],
+		chart: {
+			height: 220,
+			type: 'donut',
+		},
+		legend: {
+			position: 'bottom',
+			show: false,
+		},
+		plotOptions: {
+			pie: {
+				// customScale: 0.8,
+				donut: {
+					size: '70%'
+				}
+			}
+		},
+		colors: ["#f02769", "#673ab7", "#ffc107"],
+		dataLabels: {
+			enabled: false
+		},
+		labels: ['Social Media', 'Email', 'Organic'],
+		responsive: [{
+			breakpoint: 480,
+			options: {
+				chart: {
+					height: 200
+				},
+				legend: {
+					position: 'bottom'
+				}
+			}
+		}]
+	};
+	var chart = new ApexCharts(document.querySelector("#chart10"), options);
 	chart.render();
 });
