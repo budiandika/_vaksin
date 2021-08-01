@@ -14,7 +14,7 @@
         <!--navigation-->
         <ul class="metismenu" id="menu">
             <li>
-                <a href="javascript:;" class="has-arrow">
+                <a href="javascript:;">
                     <div class="parent-icon icon-color-1"><i class="lni lni-dashboard"></i>
                     </div>
                     <div class="menu-title">Dashboard</div>
