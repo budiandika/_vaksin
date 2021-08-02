@@ -1,5 +1,5 @@
 <div class="footer">
-    <h6 class="mb-0" >Rsup Dr.Mohammad Hoesin Palembang &copy;2021 | Developed By  SIMRS</h6></p>
+    <h6 class="mb-0 text-success" >Rsup Dr.Mohammad Hoesin Palembang @2021 | Developed By  SIMRS</h6></p>
 </div>
 <!-- JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

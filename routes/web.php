@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('modules.dashboard');
 });
+Route::get('/formskrining', function () {
+    return view('modules.form_skrining');
+});
